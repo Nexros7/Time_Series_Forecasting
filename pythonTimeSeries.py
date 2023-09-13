@@ -7,6 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1bMDuuBtqjqnjgEw2CPiD2U_4B2yhGmtY
 """
 
+#code 1--------------------------------------------------------------------------------------
+
 text = input("Enter your word: ")
 vowels = ['a','e','i','o','u']
 x= []
@@ -15,9 +17,7 @@ for i in text.lower():
     x.append(i)
 print(x)
 
-list = [1,1,3,4,4,4,6,7,8,8,8]
-
-if i in list
+#code 2--------------------------------------------------------------------------------------
 
 list = [1,1,3,4,4,4,6,7,8,8,8]
 d = {}
@@ -30,11 +30,17 @@ for i in list:
 
 print(d)
 
+#code 3--------------------------------------------------------------------------------------
+
+
 str = "betty bought some butter but the butter was bitter ,so betty bought some more butter"
 
 x = str.split(' ')
 d = set(x)
 print(f"no of unique words = {len(d)}")
+
+#code 4--------------------------------------------------------------------------------------
+
 
 while True:
   z = input("do you want to add data?(yes/no): ")
@@ -50,7 +56,8 @@ while True:
   else:
     print('type yes or no')
 
-import math
+#code 5--------------------------------------------------------------------------------------
+
 
 a = int(input("Enter first number : "))
 b = int(input("Enter second number : "))
@@ -60,6 +67,9 @@ z = (a+b+c)/3
 
 print("Here is the average : ", z)
 
+#code 6--------------------------------------------------------------------------------------
+
+
 length = int(input("Enter the length of cuboid : "))
 breadth = int(input("Enter the breadth of cuboid : "))
 height = int(input("Enter the height of cuboid : "))
@@ -67,6 +77,9 @@ height = int(input("Enter the height of cuboid : "))
 volume = length * breadth * height
 
 print("volume of cuboid : ", volume)
+
+#code 7--------------------------------------------------------------------------------------
+
 
 x = [10,20,30,10,40,20,40,50,60,30]
 
@@ -80,14 +93,23 @@ for i in x:
 
 print(dict)
 
+#code 8--------------------------------------------------------------------------------------
+
+
 n = int(input('enter any natural number'))
 z = (n *(n + 1))/2
 print(z)
+
+#code 9--------------------------------------------------------------------------------------
+
 
 i= 1
 while i < 6:
   print(i * '*')
   i += 1
+
+#code 10--------------------------------------------------------------------------------------
+
 
 x = int(input("enter a num"))
 num = 1
@@ -95,6 +117,7 @@ for i in range(1,x+1):
   num *= i
 print(num)
 
+#code 11--------------------------------------------------------------------------------------
 
 
 x = 5
@@ -102,6 +125,9 @@ for i in range(0, x):
 	for y in range(0, i+1):
 		print("*", end=" ")
 	print()
+
+#code 12--------------------------------------------------------------------------------------
+
 
 import pandas as pd
 
