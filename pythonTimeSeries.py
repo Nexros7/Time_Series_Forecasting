@@ -137,3 +137,30 @@ df.describe
 """df.describe
 
 """
+#code 13--------------------------------------------------------------------------------------
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.array([2,4])
+y = np.array([30,60])
+
+plt.plot(x,y)
+plt.show()
+
+#code 14--------------------------------------------------------------------------------------
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.array([20,45,5,15,5,10])
+
+plt.pie(x)
+plt.show()
+
+plt.hist(x)
+plt.show()
+
+
+
+
+
+
