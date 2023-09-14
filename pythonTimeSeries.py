@@ -152,8 +152,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.array([20,45,5,15,5,10])
+lab = ['dogs','cats','snakes','hamsters','tiger','birds']
 
-plt.pie(x)
+plt.pie(x,labels = lab)
 plt.show()
 
 plt.hist(x)
